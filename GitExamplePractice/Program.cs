@@ -10,8 +10,13 @@ namespace GitExamplePractice
     {
         static void Main(string[] args)
         {
-            int x =1, y =2 ;
-            x + y;
+            int x , y ;
+            Console.Write("Enter x value :");
+            x=Convert.ToInt32(Console.ReadLine());
+             Console.Write("Enter y value :");
+            y=Convert.ToInt32(Console.ReadLine());
+            
+           Console.Write("The sum of two inters is: " x + y);
         }
     }
 }
