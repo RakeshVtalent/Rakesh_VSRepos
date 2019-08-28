@@ -10,8 +10,8 @@ namespace GitExamplePractice
     {
         static void Main(string[] args)
         {
-            int x =1, y =2 , z;
-            z = x + y;
+            int x =1, y =2 ;
+            x + y;
         }
     }
 }
