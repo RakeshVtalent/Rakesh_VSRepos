@@ -16,7 +16,8 @@ namespace GitExamplePractice
              Console.Write("Enter y value :");
             y=Convert.ToInt32(Console.ReadLine());
             
-           Console.Write("The sum of two inters is: " x + y);
+           Console.Write("The sum of two integers is: "  +(x + y));
+            Console.ReadKey();
         }
     }
 }
